@@ -1,0 +1,14 @@
+{
+	"name": "vanillajsbrowsersync",
+	"version": "0.0.1",
+	"description": "A starterkit for a vanilla JavaScript website with browser-sync for automatic browser refreshing on file changes",
+	"main": "index.js",
+	"scripts": {
+		"dev": "browser-sync start --config ./bs-config.js --no-cache"
+	},
+	"author": "Niels Nicola https://github.com/yonico21",
+	"license": "ISC",
+	"devDependencies": {
+		"browser-sync": "^3.0.3"
+	}
+}
